@@ -1,6 +1,6 @@
 name = input("Mikä on nimesi: ")
 
-print(f"Terve {name}!")
+print(f"Terve, {name}!")
 
 
 
