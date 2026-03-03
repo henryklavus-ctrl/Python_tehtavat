@@ -9,6 +9,7 @@ while True:
         print("Pienin luku: ")
         break
 
+
     
 
 
