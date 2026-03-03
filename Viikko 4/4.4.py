@@ -1,8 +1,10 @@
 import random
 
+luku = random.randint(1, 10)
+
 while True:
     arvaus = int(input("Anna arvaus: "))
-    luku = random.randint(1,10)
+
 
     if (arvaus == luku):
         print("Oikein")
@@ -11,5 +13,5 @@ while True:
     elif (arvaus > luku):
         print("Liian suuri luku")
 
-    elif (arvaus<luku):
+    elif (arvaus < luku):
         print("Liian pieni luku")
