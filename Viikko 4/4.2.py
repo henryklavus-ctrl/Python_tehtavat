@@ -1,5 +1,6 @@
 while True:
-    tuumat = float(input("Anna tuumat: "))
+    tuumat = float(input("Anna tuumat(negatiivinen luku lopettaa ohjelman): "))
+
     if tuumat < 0:
         print("ohjelma lopetetaan")
         break
