@@ -1,10 +1,10 @@
-import math
-while True:
-    luku = float(input("Anna luku: "))
-    if luku == 0:
-        print("Ohjelma lopetetaan")
-        break
-    elif luku > 0:
-        print(math.sqrt(luku))
-    else:
-        print("Virheellinen luku")
+tuntipalkka = float(input("Syötä tuntipalkka: "))
+tunnit = float(input("Syötä tunnit: "))
+viikonpaiva = input("Syötä viikonpaiva: ")
+palkka = tunnit * tuntipalkka
+if viikonpaiva == "sunnuntai":
+    print("Päiväpalkka: ")
+    print(palkka * 2)
+else:
+    print("Päiväpalkka: ")
+    print(palkka)
