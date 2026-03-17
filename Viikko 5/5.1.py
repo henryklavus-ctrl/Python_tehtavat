@@ -9,3 +9,4 @@ for n in range(nopat):
 
 print(f"Noppien summa on {summa}")
 
+
