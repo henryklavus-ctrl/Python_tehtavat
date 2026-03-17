@@ -7,6 +7,6 @@ while (luku != ""):
 
 luvut.sort(reverse=True)
 
-print("Viisi suurinta lukua suuruusjärjestyksessä:")
+print("Viisi suurinta lukua suurrimmasta alkaen:")
 for luku in luvut[:5]:
     print(luku)
