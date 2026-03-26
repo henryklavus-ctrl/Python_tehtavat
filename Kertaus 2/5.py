@@ -12,5 +12,5 @@ def suurin_arvo(arvo1, arvo2, arvo3):
 
 suurin = suurin_arvo(arvo1, arvo2, arvo3)
 
-print(f"Suurin arvo {suurin}")
+print(f"Suurin arvo: {suurin}")
 
