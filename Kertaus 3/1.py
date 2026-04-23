@@ -15,4 +15,5 @@ sanakirja["Sophia"] = ["Sophia", 35, "Doctor"]
 
 
 del sanakirja["Emily"]
+
 print(sanakirja)
